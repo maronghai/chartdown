@@ -1,0 +1,23 @@
+{
+  "name": "chartdown",
+  "version": "0.1.0",
+  "description": "Markdown Charts for Humans and AI - A simple DSL for describing charts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/test.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "chart",
+    "dsl",
+    "markdown",
+    "data-visualization"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "typescript": "^5.0.0"
+  }
+}
