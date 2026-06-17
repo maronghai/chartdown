@@ -47,9 +47,9 @@ import { parse } from 'chartdown';
 
 const input = `= server
 
-!x 时间
+!x Time
 
-!y 使用率(%)
+!y Usage(%)
 
 !y2 QPS
 
@@ -59,7 +59,7 @@ b/mem: 60 70 80
 
 l/qps@r: 1000 1200 1500
 
-@ 周一 周二 周三`;
+@ Mon Tue Wed`;
 
 const ast = parse(input);
 console.log(ast);
